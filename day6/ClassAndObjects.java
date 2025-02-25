@@ -14,6 +14,7 @@ public class ClassAndObjects {
     ob1.ad();
     System.out.println(ob1.sum);//this will print 1 because the ad function is called in the above so this objects reference for the sum instance is incremented by 1 but only for this object only ok
     System.out.println(ob2.sum);//as you can see this will not print 1 because this object has seperate reference for the instace sum ok so this will definetely print 0
+    System.out.println(ob2);
 
   }
 }
