@@ -12,6 +12,7 @@ public class EvenOddWithBitwise {
         } else {
             System.out.println(number + " is an odd number.");
         }
+        System.out.println("Program executed sucessfully!");
 
         scanner.close();
     }
